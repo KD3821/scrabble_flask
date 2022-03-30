@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>Make your move!</h1>
+
+<form method=post>
+    {{ csrf_token }}
+
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type=int name='up' value=-1.0>^</button></p>
+    <p><button type=int name='left' value=-1.0><</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type=int name='right' value=+1.0>></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type=int name='drop' value=1>[O]</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type=int name='take' value=1>[X]</button></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type=int name='down' value=+1.0>v</button></p>
+
+</form>
+
+
+{% endblock %}
