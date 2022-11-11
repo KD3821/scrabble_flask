@@ -1,5 +1,7 @@
 # scrabble_flask
 
+<!DOCTYPE>
+
 <h1 align="center">A short browser game based on Flask app</h1>
 <p align="center">
 
