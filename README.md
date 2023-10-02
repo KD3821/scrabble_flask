@@ -5,6 +5,10 @@
 
 <img src="https://img.shields.io/badge/madeBy-KD3821-purple" >
 
+![image](https://github.com/KD3821/scrabble_flask/assets/80853241/5021d331-7ce8-449d-8d62-a8be319206de)
+
+<p align="center">Это не "реактивный" UI - после каждого запроса дождитесь завершения перезагрузки страницы</p>
+
 Итоговый проект в рамках прохождения онлайн-курса:<br>
 <a href="https://stepik.org/course/97540/promo">"Web-фреймворк Flask: введение"</a><br>
 Веб интерфейс игры по типу SCRABBLE - передвигать буквы на доске (без обработки результатов).<br>
